@@ -1,0 +1,100 @@
+h1 {
+	font-style: italic;
+	text-align: center;
+	color: yellow;
+}
+html, body{
+	height: 100%;
+}
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #08709C;
+}
+
+.container { 
+	width: 500px;
+	background-color: #0C142C;
+	height: 80%;
+	display:flex; 
+	flex-direction: column;
+	text-align: center;
+	margin: 70px auto 0 auto;
+	border-radius: 8px;
+}
+.FirstName {
+	width: 200px;
+	height: 30px;
+	/*margin-bottom: 20px;*/
+	border-radius: 5px;
+	font-size: 15px;
+
+}
+.LastName {
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.Birthday {
+	width: 140px;
+	height: 20px;
+	border-radius: 5px;
+}
+.country {
+	height: 24px;
+	border-radius: 5px;
+}
+.Email {
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.Adress {
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.password {
+		width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.textarea {
+	margin: 0px;
+	max-width: 400px;
+	max-height: 79px;
+	min-height: 79px;
+	min-width: 400px;
+}
+
+.Submit {
+	width: 200px;
+	height: 50px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-style: italic;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+div {
+	margin-bottom: 5px;
+}
+.colorwhite {
+	color: white;
+}
+
+.displayInline{
+	display: inline;
+	color: white;
+}
+.invalid{
+    border: 3px solid red;
+}

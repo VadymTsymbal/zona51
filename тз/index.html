@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тестовое Задание!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<form  class="container" method="post">
+		<div>
+			<h1>Регистрация</h1>
+		</div>
+		<div>
+		<div class="displayInline">	
+			<input  data-validation = "text" class="FirstName" type="text" name="First name" placeholder="Введите Имя" required>	
+			<span></span>
+		</div>
+		<div class="displayInline">
+			<input  data-validation = "text" class="LastName" type="text" name="Last name" placeholder="Введите Фамилию"required>
+			<span></span>
+		</div>
+		</div>
+	
+		<div>
+			<div class="displayInline">
+				<input data-validation = "date" class="Birthday" type="date" name="Birthday" required placeholder="Дата Рождения">
+				<span></span>
+			</div>
+			
+			<select class="country" name="country">
+        		<option value="Украина">Украина</option> 
+        		<option value="Россия">Россия</option> 
+        		<option value="Беларусь">Беларусь</option> 
+      		</select> 
+		</div>
+		<div class="colorwhite">
+			<label for="Gender">Мужской</label>
+			<input type="radio" checked="" name="Gender" required>
+			<label for="Gender">Женский</label>
+			<input type="radio" name="Gender" required>
+		</div>
+		<div>
+			<div class="displayInline">
+			<input  data-validation = "email" class="Email" data-validation="Email" type="email" name="Email" required placeholder="E-Mail">
+			<span></span>
+		</div>
+			<div class="displayInline">
+				
+			<input  data-validation = "text" class="Adress" type="text" name="Adress" required placeholder="Адресс">
+			<span></span>
+			</div>
+		</div>
+	
+		<div>
+			<div class="displayInline">
+				
+			<input data-validation="text" class="password" type="password" name="Password" required placeholder="Введите пароль">
+			<span></span>
+			</div>
+		</div>
+		<div>
+			<textarea class="textarea" placeholder="Notes"></textarea>
+		</div>
+		<div class="button">
+			<input  class="Submit" type="Submit" name="Submit" value="Зарегестрировать">
+		</div>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
